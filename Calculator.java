@@ -6,9 +6,9 @@ public class Calculator{
     }
 
     int subtract(int a, int b){
-        return a - b;
+        return a - ;
     }
-    
+
     int multiplication(int a, int b){
         return a * b;
     }
