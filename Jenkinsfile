@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Compile Stage'){
             steps{
-                sh 'javac Calculator.java'
+                sh 'python Calculator.py'
             }
         }
     } 
