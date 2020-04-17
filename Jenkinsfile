@@ -3,7 +3,9 @@ pipeline{
 
     stages{
         stage('Compile Stage'){
-            sh "javac Calculator.java"
+            steps{
+                sh "javac Calculator.java"
+            }
         }
     } 
 }
