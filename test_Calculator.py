@@ -1,4 +1,4 @@
-from calc import *
+from Calculator import *
 
 def test_sum():
     assert sum(5,3) == 8
