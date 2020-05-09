@@ -26,4 +26,3 @@ if __name__ == "__main__":
                     datefmt='%Y-%m-%d %H:%M:%S',level=logging.DEBUG)
     logging.info(x)
     logging.info(y)
-    logging.info(z)
